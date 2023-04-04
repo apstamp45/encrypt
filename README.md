@@ -7,7 +7,8 @@ This program was made to explore ways that data might be encrypted. To use it, y
     ```   
 The usage is as follows:   
     ```
-    ./enc -d/e (-p [password]) [input]
+    ./enc -d/e (-p [password] -i [input file] 
+        -o [output file]) [input]
     ```   
 To encrypt the string "A little piece of text." with the password "pswd", you can use the following command:   
     ```
